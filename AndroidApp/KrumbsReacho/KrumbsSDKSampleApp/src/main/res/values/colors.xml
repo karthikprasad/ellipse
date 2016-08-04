@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e53539</color>
+    <color name="colorPrimaryDark">#c62428</color>
+    <color name="colorAccent">#d74d19</color>
+    <color name="colorForm">#e5353a</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="white">#fafafa</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="humans">#25AC86</color>
+    <color name="humans_pressed">#25AC86</color>
+    <color name="news">#885B83</color>
+    <color name="news_pressed">#885B83</color>
+    <color name="causes">#FC8944</color>
+    <color name="causes_pressed">#FC8944</color>
+    <color name="jobs">#D4B354</color>
+    <color name="jobs_pressed">#D4B354</color>
+    <color name="bites">#FB4D4E</color>
+    <color name="bites_pressed">#FB4D4E</color>
+
+
+    <color name="reacho_blue">#2A69F3</color>
+    <color name="reacho_blue_pressed">#2A69F3</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="icon_color">#525252</color>
+</resources>

@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {
+      "Celebrating": {
+        "synonyms": [],
+        "unicode": "1F64C",
+        "expression_id": 1,
+        "resource_name": "emoji_1f64c"
+      }
+    },
+    {
+      "Party": {
+        "synonyms": [],
+        "unicode": "1F389",
+        "expression_id": 2,
+        "resource_name": "emoji_1f389"
+      }
+    },
+    {
+      "Music": {
+        "synonyms": [],
+        "unicode": "1F386",
+        "expression_id": 3,
+        "resource_name": "emoji_1f386"
+      }
+    },
+    {
+      "Entertained": {
+        "synonyms": [],
+        "unicode": "1F38A",
+        "expression_id": 4,
+        "resource_name": "emoji_1f38a"
+      }
+    },
+    {
+      "Speechless": {
+        "synonyms": [],
+        "unicode": "1F62E",
+        "expression_id": 5,
+        "resource_name": "emoji_1f62e"
+      }
+    }
+  ]
+}

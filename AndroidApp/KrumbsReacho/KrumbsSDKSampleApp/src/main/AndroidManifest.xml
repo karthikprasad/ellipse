@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.krumbs.getkrumbs.sdk.reachoapp">
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <application
+        android:name=".KrumbsReachoApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon,android:theme">
+        <meta-data
+            android:name="io.krumbs.sdk.APPLICATION_ID"
+            android:value="@string/krumbssdk_app_id" />
+        <meta-data
+            android:name="io.krumbs.sdk.CLIENT_KEY"
+            android:value="@string/krumbssdk_client_key" />
+        <activity
+            android:name="com.krumbs.getkrumbs.sdk.reachoapp.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.krumbs.getkrumbs.sdk.reachoapp.NewsFeedActivity"
+            android:label="@string/title_activity_news_feed"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.krumbs.getkrumbs.sdk.reachoapp.PostFormItemActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_post_form_item"
+            android:parentActivityName="com.krumbs.getkrumbs.sdk.reachoapp.MainActivity"
+            android:theme="@style/FullscreenTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.krumbs.getkrumbs.sdk.reachoapp.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

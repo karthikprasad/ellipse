@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_profile"
+        android:title="Profile" />
+    <item android:id="@+id/nav_like"
+        android:title="Like Us" />
+    <item android:id="@+id/nav_rewards"
+        android:title="Rewards" />
+    <item android:id="@+id/nav_bookmark"
+        android:title="Bookmark" />
+    <item android:id="@+id/nav_rateus"
+        android:title="Rate Us" />
+    <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+        android:title="Share" />
+</menu>
+
+

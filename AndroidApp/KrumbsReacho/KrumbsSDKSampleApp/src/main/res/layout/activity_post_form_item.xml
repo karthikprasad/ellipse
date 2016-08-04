@@ -1,0 +1,166 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#0099cc"
+    tools:context="reacho.krumbs_android.getkrumbs.com.reachoapp.PostFormItemActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:id="@+id/fullscreen_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#e0e0e0"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="219dp"
+                android:background="#e5363a">
+
+                <android.support.design.widget.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/gallery_button"
+                    android:src="@drawable/ic_gallery_icon"
+                    android:layout_marginRight="68dp"
+                    android:layout_marginEnd="68dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/camera_button"
+                    android:layout_marginLeft="68dp"
+                    android:layout_marginStart="68dp"
+                    android:layout_alignTop="@+id/gallery_button"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:src="@mipmap/ic_krumb_logo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/form_post_upload_message"
+                    android:id="@+id/textView"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/white" />
+
+                <com.joanzapata.iconify.widget.IconButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/check_form_submit"
+                    android:text="@string/post_form_ok_check"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:background="?android:selectableItemBackground"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignRight="@+id/gallery_button"
+                    android:layout_alignEnd="@+id/gallery_button"
+                    android:layout_alignLeft="@+id/gallery_button"
+                    android:layout_alignStart="@+id/gallery_button"
+                    android:elevation="0dp" />
+                <com.joanzapata.iconify.widget.IconButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/check_form_cancel"
+                    android:text="@string/post_form_cancel_close"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:background="?android:selectableItemBackground"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/check_form_submit"
+                    android:layout_toEndOf="@+id/check_form_submit"
+                    android:elevation="0dp" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#e0e0e0"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:elevation="5dp"
+                    android:background="@color/white">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp">
+
+                        <ImageView
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:id="@+id/form_title_icon"
+                            android:layout_marginTop="35dp"
+                            android:layout_marginRight="-15dp"
+                            android:layout_marginLeft="10dp" />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/editTitle"
+                            android:inputType="text"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="20dp"
+                            android:hint="@string/form_title_hint" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp">
+
+                        <ImageView
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:id="@+id/form_description_icon"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="35dp"
+                            android:layout_marginRight="-20dp" />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/editDescription"
+                            android:inputType="text"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="20dp"
+                            android:hint="@string/form_description_hint" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

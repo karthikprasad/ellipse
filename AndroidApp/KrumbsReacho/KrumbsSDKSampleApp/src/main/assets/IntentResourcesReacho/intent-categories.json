@@ -1,0 +1,16 @@
+{
+  "Bites": {
+    "index": 1,
+    "preferred_location_categories": ["restaurants"],
+    "intents_file": "bites.json"
+  },
+  "Causes/News": {
+    "index": 2,
+    "preferred_camera": "front",
+    "intents_file": "causes.json"
+  },
+  "Events": {
+    "index": 3,
+    "intents_file": "events.json"
+  }
+}

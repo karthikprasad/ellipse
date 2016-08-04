@@ -1,0 +1,92 @@
+{
+  "intents": [
+    {
+      "Yum": {
+        "synonyms": [
+          "Yum",
+          "Tasty",
+          "Yummy",
+          "Hungry",
+          "Craving",
+          "Foodporn",
+          "Delish",
+          "Delicious",
+          "Foodgasm",
+          "Nomnim",
+          "Foodie",
+          "Foodpic",
+          "Lovefood",
+          "Sweettooth",
+          "Dessertporn"
+        ],
+        "unicode": "1F60B",
+        "expression_id": 1,
+        "resource_name": "emoji_1f60b"
+      }
+    },
+    {
+      "Dining": {
+        "synonyms": [
+        ],
+        "unicode": "1F37D",
+        "expression_id": 2,
+        "resource_name": "emoji_1f37d"
+      }
+    },
+    {
+      "Drinking": {
+        "synonyms": [
+          "Drinking",
+          "Enjoyingcoffee",
+          "Thirsty",
+          "Goodtimes",
+          "Happyhour",
+          "Sundayfunday",
+          "Enjoyingdrinks",
+          "Tipsy",
+          "Enjoyingcocktail",
+          "Nothingtodo",
+          "Slurp",
+          "Drinkup",
+          "Drunk"
+        ],
+        "unicode": "1F379",
+        "expression_id": 3,
+        "resource_name": "emoji_1f379"
+      }
+    },
+    {
+      "Desserts": {
+        "synonyms": [
+          "afters",
+          "ambrosia",
+          "delicacy",
+          "confection",
+          "pudding",
+          "sweetness",
+          "cake!"
+        ],
+        "unicode": "1F370",
+        "expression_id": 4,
+        "resource_name": "emoji_1f370"
+      }
+    },
+    {
+      "Coffee": {
+        "synonyms": [
+          "cuppa",
+          "cafemocha",
+          "joe",
+          "espresso",
+          "java",
+          "capuccino",
+          "cafelatte",
+          "barista"
+        ],
+        "unicode": "2615",
+        "expression_id": 1,
+        "resource_name": "emoji_2615"
+      }
+    }
+  ]
+}
